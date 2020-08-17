@@ -91,7 +91,7 @@
   
   <main class="pt-5 max-lg-5">
       <div class="container-fluid mt-5">
-          <div class="card mb-4 wow fadeIn">
+          <div class="card mb-4 wow fadeInUp">
               <div class="card-body d-sm-flex justify-content-between">
                   <h4 class="mb-2 mb-sm-0 pt-1">
                       <a href="#">Home page</a>
@@ -108,7 +108,7 @@
               </div>
           </div>
           
-          <div class="row wow fadeIn">
+          <div class="row wow fadeInLeft">
               <div class="col-md-9 mb-4">
                   <div class="card">
                       <div class="card-body">
@@ -118,15 +118,201 @@
               </div>
               
               <div class="col-md-3 mb-4">
-                  <div class="card">
+                  <div class="card mb-2">
                       <div class="card-body">
                           <canvas id="pieChart"></canvas>
+                      </div>
+                  </div>
+                  
+                  <div class="card mt-5">
+                      <div class="card-body">
+                          <div class="list-group list-group-flush">
+                              <a href="#" class="list-group-item list-group-item-action waves-effect text-uppercase">
+                                  Eur
+                                  <span class="badge badge-danger badge-pill float-right">
+                                  23% <i class="fas fa-arrow-down ml-1"></i>
+                                  </span>                                  
+                              </a>
+                          </div>
+                          
+                          <div class="list-group list-group-flush">
+                              <a href="#" class="list-group-item list-group-item-action waves-effect text-uppercase">
+                                  Usd
+                                  <span class="badge badge-success badge-pill float-right">
+                                  23% <i class="fas fa-arrow-up ml-1"></i>
+                                  </span>                                  
+                              </a>
+                          </div>
+                          
+                          <div class="list-group list-group-flush">
+                              <a href="#" class="list-group-item list-group-item-action waves-effect">
+                                  Sales
+                                  <span class="badge badge-primary badge-pill float-right">
+                                  37% <i class="fas fa-arrow-up ml-1"></i>
+                                  </span>                                  
+                              </a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          
+          <div class="row wow fadeInRight">
+              <div class="col-md-6 mb-4">
+                  <div class="card">
+                      <div class="card-body">
+                          <table class="table table-hover">
+                              <thead class="blue-grey lighten-4">
+                                  <tr>
+                                    <th>#</th>
+                                    <th>Lorem</th>
+                                    <th>Ipsum</th>
+                                    <th>Sit</th>
+                                  </tr>
+                              </thead>
+                              
+                              <tbody>
+                                  <tr>
+                                      <th scope="row">1</th>
+                                      <th>Item 1</th>
+                                      <th>Item 2</th>
+                                      <th>Item 3</th>
+                                  </tr>
+                                  
+                                  <tr>
+                                      <th scope="row">2</th>
+                                      <th>Item 4</th>
+                                      <th>Item 5</th>
+                                      <th>Item 6</th>
+                                  </tr>
+                                  
+                                  <tr>
+                                      <th scope="row">3</th>
+                                      <th>Item 7</th>
+                                      <th>Item 8</th>
+                                      <th>Item 9</th>
+                                  </tr>
+                              </tbody>
+                          </table>
+                      </div>
+                  </div>
+              </div>
+              
+              <div class="col-md-6 mb-4">
+                  <div class="card">
+                      <div class="card-body">
+                          <table class="table table-hover">
+                              <thead class="blue lighten-4">
+                                  <tr>
+                                    <th>#</th>
+                                    <th>Lorem</th>
+                                    <th>Ipsum</th>
+                                    <th>Sit</th>
+                                  </tr>
+                              </thead>
+                              
+                              <tbody>
+                                  <tr>
+                                      <th scope="row">1</th>
+                                      <th>Item 1</th>
+                                      <th>Item 2</th>
+                                      <th>Item 3</th>
+                                  </tr>
+                                  
+                                  <tr>
+                                      <th scope="row">2</th>
+                                      <th>Item 4</th>
+                                      <th>Item 5</th>
+                                      <th>Item 6</th>
+                                  </tr>
+                                  
+                                  <tr>
+                                      <th scope="row">3</th>
+                                      <th>Item 7</th>
+                                      <th>Item 8</th>
+                                      <th>Item 9</th>
+                                  </tr>
+                              </tbody>
+                          </table>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          
+          <div class="row wow fadeInDown">
+              <div class="col-lg-4 col-md-12 mb-4">
+                  <div class="card">
+                      <div class="card-header">Line chart</div>
+                      <div class="card-body">
+                          <canvas id="lineChart"></canvas>
+                      </div>
+                  </div>
+              </div>
+              
+              <div class="col-lg-4 col-md-6 mb-4">
+                  <div class="card">
+                      <div class="card-header">Radar chart</div>
+                      <div class="card-body">
+                          <canvas id="radarChart"></canvas>
+                      </div>
+                  </div>
+              </div>
+              
+              <div class="col-lg-4 col-md-6 mb-4">
+                  <div class="card">
+                      <div class="card-header">Doughnut chart</div>
+                      <div class="card-body">
+                          <canvas id="doughnutChart"></canvas>
                       </div>
                   </div>
               </div>
           </div>
       </div>
   </main>
+    
+    <footer class="page-footer text-center font-small primary-color-dark darken-2 mt-4 wow fadeIn">
+        <div class="pt-4">
+            <a href="#" class="btn btn-outline-white">
+            Spryman
+            <i class="fas fa-user-circle ml-2"></i>
+            </a>
+            <a href="#" class="btn btn-outline-white">
+            News
+            <i class="fas fa-graduation-cap ml-2"></i>
+            </a>
+        </div>
+        
+        <hr class="my-4">
+        
+        <div class="pb-4">
+            <a href="#">
+                <i class="fab fa-facebook-f mr-3"></i>
+            </a>
+            <a href="#">
+                <i class="fab fa-twitter mr-3"></i>
+            </a>
+            <a href="#">
+                <i class="fab fa-youtube mr-3"></i>
+            </a>
+            <a href="#">
+                <i class="fab fa-google-plus mr-3"></i>
+            </a>
+            <a href="#">
+                <i class="fab fa-dribbble mr-3"></i>
+            </a>
+            <a href="#">
+                <i class="fab fa-pinterest mr-3"></i>
+            </a>
+            <a href="#">
+                <i class="fab fa-github mr-3"></i>
+            </a>
+            <a href="#">
+                <i class="fab fa-codepen mr-3"></i>
+            </a>
+        </div>
+        
+        <div class="footer-copyright py-3">SpryMan</div>
+    </footer>
 
     <!-- jQuery -->
     <script type="text/javascript" src="js/jquery.min.js"></script>
@@ -223,6 +409,77 @@
                 legend: {
                     display: false
                 }
+            }
+        });
+        
+        let ctxl = document.querySelector('#lineChart').getContext('2d');
+        let myLineChart = new Chart(ctxl, {
+           type: 'line',
+            data: {
+                labels: ["1", "2", "3", "4", "5", "6", "7"],
+                datasets: [{
+                    label: "2019",
+                    fillColor: "black",
+                    strokeColor: "red",
+                    pointColor: "green",
+                    pointsStrokeColor: "#fff",
+                    pointHighlightFill: "#fff",
+                    pointHighlightStroke: "yellow",
+                    data: [65, 8, 80, 85, 55, 34, 40]
+                }, {
+                    label: "2020",
+                    fillColor: "black",
+                    strokeColor: "red",
+                    pointColor: "green",
+                    pointsStrokeColor: "#fff",
+                    pointHighlightFill: "#fff",
+                    pointHighlightStroke: "yellow",
+                    data: [40, 34, 55, 85, 80, 8, 65]
+                }]
+            }
+        });
+        
+        let ctxr = document.querySelector('#radarChart').getContext('2d');
+        let myRadarChart = new Chart(ctxr, {
+           type: 'radar',
+            data: {
+                labels: ["January", "February", "March", "April", "May", "June"],
+                datasets: [{
+                    label: "2019",
+                    fillColor: "black",
+                    strokeColor: "red",
+                    pointColor: "green",
+                    pointsStrokeColor: "#fff",
+                    pointHighlightFill: "#fff",
+                    pointHighlightStroke: "yellow",
+                    data: [65, 8, 80, 85, 55, 34, 40]
+                }, {
+                    label: "2020",
+                    fillColor: "black",
+                    strokeColor: "red",
+                    pointColor: "green",
+                    pointsStrokeColor: "#fff",
+                    pointHighlightFill: "#fff",
+                    pointHighlightStroke: "yellow",
+                    data: [40, 34, 55, 85, 80, 8, 65]
+                }]
+            }
+        });
+        
+        let ctxd = document.querySelector('#doughnutChart').getContext('2d');
+        let myDoughnutChart = new Chart(ctxd, {
+           type: 'doughnut',
+            data: {
+                labels: ["July", "August", "September", "October", "November"],
+                datasets: [{
+                    data: [300, 50, 100, 140, 59],
+                    backgroundColor: ["red", "green", "blue", "yellow", "black"],
+                    hoverBackgroundColor: ["orange", "cyan", "purple", "brown", "white"]
+                }]
+            },
+            options: {
+                legend: false,
+                responsive: true
             }
         });
     </script>
